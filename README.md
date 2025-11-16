@@ -67,12 +67,11 @@ For example:
 python generate.py --evaluate --data ../data_processed/michael_pairs --train_split 0.9 --k1 128 --k2 128 --duration 2 --n_patch_res 3 --external_test --external_test_data ../data_processed/david_pairs
 ```
 Pretrained model checkpoints are located in the **FRIDU/model_checkpoints** folder.
-
-Note that when running training, the folder name is automatically saved as a hash of the parameters.
-You can manually set it by changing the config_hash variable.
 <p>
   <img src="docs/Paper_teaser.jpg" alt="Paper teaser" width="100%">
 </p>
+Note that when running training, the folder name is automatically saved as a hash of the parameters.
+You can manually set it by changing the config_hash variable.
 
 ## Citation
 
