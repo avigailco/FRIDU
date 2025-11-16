@@ -71,7 +71,7 @@ Pretrained model checkpoints are located in the **FRIDU/model_checkpoints** fold
 Note that when running training, the folder name is automatically saved as a hash of the parameters.
 You can manually set it by changing the config_hash variable.
 <p>
-  <img src="docs/Paper_teaser.jpg" alt="Paper teaser" width="85%">
+  <img src="docs/Paper_teaser.jpg" alt="Paper teaser" width="100%">
 </p>
 
 ## Citation
