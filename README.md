@@ -32,7 +32,7 @@ models provide a promising pathway to functional map processing.*
 
 ### Preparing datasets
 
-Download the [TACO](https://zenodo.org/records/14066437) dataset, introduced in [TACO paper](https://boa.unimib.it/bitstream/10281/558432/1/Pedico%20et%20al-2024-STAG-VoR.pdf), and locate it under the **FRIDU/data** folder.
+Download the [TACO](https://zenodo.org/records/14066437) dataset (introduced in [TACO paper](https://boa.unimib.it/bitstream/10281/558432/1/Pedico%20et%20al-2024-STAG-VoR.pdf)) and place it in **FRIDU/data/TACO**.
 
 To generate the initial functional map based on WKS descriptors for TACO meshes, run:
 ```.bash
@@ -43,7 +43,7 @@ In our experiments, we always set k1 = k2 (resulting in a square functional map 
 You can use any other dataset, small adaptations might be required.
 
 You can download the dataset used to train the "michael" model from the paper here [HuggingFace](https://huggingface.co/datasets/avigailco/FRIDU/tree/main).
-Locate the **michael_pairs** folder under **FRIDU/data_processed**.
+Place the downloaded michael_pairs folder in **FRIDU/data_processed/michael_pairs**.
 
 ### Train FRIDU
 
