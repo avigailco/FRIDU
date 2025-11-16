@@ -26,7 +26,6 @@ def parse_args():
     parser.add_argument("--resume_from_checkpoint", action="store_true", help="Resume training from checkpoint")
 
     parser.add_argument('--data', type=str, default="../data_processed/david_pairs", help="Train dataset path")
-    # parser.add_argument('--test_data', type=str, default="../data_processed/david_pairs", help="Test dataset path")
     parser.add_argument('--external_test', action='store_true', help="test on other dataset")
     parser.add_argument('--external_test_data', type=str, default="../data_processed/david_pairs", help="Path to dataset")
 
