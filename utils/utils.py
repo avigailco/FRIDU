@@ -97,8 +97,8 @@ def hash_training_config(config):
     config_dict = vars(config).copy()  # Make a copy to avoid modifying the original object
     # Remove fields if exist
     config_dict.pop('job_num', None)
-    config_dict.pop('log_wb', None)
-    # config_dict.pop('evaluate', None)
+    config_dict.pop('evaluate', None)
+    # config_dict.pop('log_wb', None)
     # config_dict.pop('upsampling', None)
     # config_dict.pop('no_guidance', None)
     # config_dict.pop('regularize_guidance', None)
